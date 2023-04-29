@@ -1,7 +1,5 @@
 import React from 'react'
 import Link from 'next/link'
-
-import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 
 const Main = () => {

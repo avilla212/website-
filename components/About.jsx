@@ -14,8 +14,7 @@ const About = ({image}) => {
                   I am a Uni student back at community college studying Computer Science after pursuing Psychology. My background lies in ABA Psychology as I have worked 
                   with people diagnosed with autism for 3 years. 
                   My passion for all things tech related
-                  began in my early teen years. However, I have always been interested 
-                  in anything tech related. It began in my early teen years with taking apart my Xbox 360 so I can mod video games and eventually led to me building my own PC. Since then I have been
+                  began in my early teen years. It began in my early teen years with taking apart my Xbox 360 so I can mod video games and eventually led to me building my own PC. Since then I have been
                   I have alwyas had an interest in anything tech. In 2022, I decided to take the leap and pursue a career in tech. 
                   I have been programming for 8 months on my own and have been learning from various online resources such as
                   <Link className='underline cursor-pointer' href='https://www.freecodecamp.org/'> FreeCodeCamp,</Link> 

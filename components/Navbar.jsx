@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { AiOutlineMenu,AiOutlineClose,AiOutlineMail } from 'react-icons/ai'
@@ -36,16 +35,16 @@ const Navbar = () => {
             <div>
                 <ul className='hidden md:flex'>
                     <Link href='/'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+                        <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
                     <Link href='/#about'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+                        <li className='font-bold ml-10 text-sm uppercase hover:border-b'>About</li>
                     </Link>
                     <Link href='/#projects'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                        <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Projects</li>
                     </Link>
                     <Link href='/#skills'>
-                        <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                        <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Skills</li>
                     </Link>
                 </ul>
                 <div onClick={handleNav} className='md:hidden cursor-pointer'>
@@ -59,7 +58,7 @@ const Navbar = () => {
                 : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
-                        <Image src='/../public/assets/AV_logo.png' alt='/' height={35} width={87}/>
+                        
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 cursor-pointer'>
                             <AiOutlineClose size={25}/>
                         </div>

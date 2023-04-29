@@ -11,16 +11,12 @@ const Projects = () => {
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#383636]'>Projects</p>
             <h2 className='py-4'>More on my github as well :D</h2>
-            
-            <div className='grid md:grid-cols-2 gap-8'>
+            {/*
+             q: How can have my photos display ina  grid like fashion
+             a: use grid and grid-cols-2
+            */}
+            <div className='grid md:grid-cols-2 grid-rows-2'>
 
-
-                {/** q: why do we use relative in the classname
-                 * a: because we want to position the absolute div inside the relative div
-                 * 
-                 * q: what does relative mean? 
-                 * a: it means that the div will be positioned relative to its parent
-                 */}
                 <Link href='https://github.com/avilla212/resume-projects-'>
                 <ProjectItem title='Discord chatbot' 
                 backgroundImg={chatbot} 
@@ -37,6 +33,7 @@ const Projects = () => {
                 desc='I saw someone on TikTok make this and I wanted to see if I could make it myself and optimize runtimes and memory useage. Plus,
                 I know many people around my age would love to have this tool'
                 />
+                 
                 </Link>
                 </div>
             </div>

@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const About = () => {
+import computer from '../public/assets/computer.png'
+
+const About = ({image}) => {
   return (
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
@@ -22,7 +24,7 @@ const About = () => {
                 </p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 ease-in duration 300'>
-                <Image className='rounded-xl' src='/../public/assets/computer.png' width={500} height={500} />
+                <Image className='rounded-xl' src={computer} width={500} height={500} />
             </div>
         </div>
     </div>

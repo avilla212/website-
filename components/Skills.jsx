@@ -15,7 +15,7 @@ const Skills = () => {
     <div id='skills' className=' w-full lg:h-screen p-2'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase py-4'>Skills</p>
-            <h2 className='py-2'>These are skills im always progressing with </h2>
+            <h2 className='py-2'>These are skills I'm always progressing with </h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
 
             <SkillsItem image={html}

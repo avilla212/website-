@@ -10,7 +10,7 @@ const Projects = () => {
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#383636]'>Projects</p>
-            <h2 className='py-4'>More on my github as well :D</h2>
+            <h2 className='py-2'>More on my github as well :D</h2>
             {/*
              q: How can have my photos display ina  grid like fashion
              a: use grid and grid-cols-2

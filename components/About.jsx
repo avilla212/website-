@@ -18,7 +18,7 @@ const About = ({image}) => {
                   <Link className='underline cursor-pointer' href='https://www.freecodecamp.org/'> FreeCodeCamp,</Link> 
                   <Link className='underline cursor-pointer' href='https://www.codecademy.com/'> Codecademy,</Link>
                   <Link className='underline cursor-pointer'  href='https://www.coursera.org/'> Coursera,</Link>
-                  <Link className='underline cursor-pointer' href='https://www.theodinproject.com/'> The Odin Project. </Link> and 
+                  <Link className='underline cursor-pointer' href='https://www.theodinproject.com/'> The Odin Project </Link> and 
                   <Link className='underline cursor-pointer' href='https://leetcode.com/'> Leetcode.</Link>
                    Programming aside, I enjoy working out, spending time with my family and catching up on the latest tech news.
                 </p>

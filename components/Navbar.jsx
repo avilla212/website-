@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import { AiOutlineMenu,AiOutlineClose,AiOutlineMail } from 'react-icons/ai'
-import { FaGithub,FaLinkedinIn,l } from 'react-icons/fa'
+import { AiOutlineMenu,AiOutlineClose, } from 'react-icons/ai'
+import { FaGithub,FaLinkedinIn,FaInstagram } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 
@@ -98,6 +98,9 @@ const Navbar = () => {
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                             <Link href='https://www.facebook.com/alex.villafana.14/'>
                             <BsFillPersonLinesFill />
+                            </Link>
+                            <Link href='https://www.instagram.com/alexvillaloaf/'>
+                            <FaInstagram />
                             </Link>
                             </div>
                         </div>

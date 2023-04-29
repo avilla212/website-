@@ -11,7 +11,7 @@ const About = ({image}) => {
             <div className='col-span-2'>
                 <h1 className='tracking-wide'>About me</h1>
                 <p className='py-4 text-xl'>
-                  I am a Uni student back at community college studying Computer Science after pursuing Psychology. My background lies in ABA Psychology as I have worked 
+                  I am a Uni student back at community college studying Computer Science after pursuing Psychology. My background is in ABA Psychology as I have worked 
                   with people diagnosed with autism for 3 years. 
                   
                   My passion for all things tech related began in my early teen years when I decided to take apart my Xbox 360 so I can mod video games which would lead to me building my own PC later on. 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
-import { AiOutlineMenu,AiOutlineClose, } from 'react-icons/ai'
+import { AiOutlineMenu,AiOutlineCloseCircle, } from 'react-icons/ai'
 import { FaGithub,FaLinkedinIn,FaInstagram } from 'react-icons/fa'
 
 const Navbar = () => {
@@ -59,8 +59,8 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         
-                        <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 cursor-pointer'>
-                            <AiOutlineClose size={25}/>
+                        <div onClick={handleNav} className=' shadow-gray-400 cursor-pointer'>
+                            <AiOutlineCloseCircle size={25}/>
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>

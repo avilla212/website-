@@ -6,7 +6,7 @@ import frontend from '../public/certs/front_end.png'
 
 const Certs = () => {
   return (
-    <div id='certs' className='max-w-[1240px] mx-auto px-2 py-16'>
+    <div id='certificates' className='max-w-[1240px] mx-auto px-2 py-16'>
         <p className='text-xl tracking-widest uppercase text-[#383636] '>Certifications</p>
         <div className='grid md:grid-cols-2 gap-8'>
             {/* Insert cert's item here */}

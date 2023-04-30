@@ -43,6 +43,9 @@ const Navbar = () => {
                     <Link href='/#skills'>
                         <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Skills</li>
                     </Link>
+                    <Link href='/#certificates'>
+                        <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Certificates</li>
+                    </Link>
                 </ul>
                 <div onClick={handleNav} className='md:hidden cursor-pointer'>
                     <AiOutlineMenu size={25}/>
@@ -77,6 +80,9 @@ const Navbar = () => {
                         </Link>
                         <Link href='/'>
                         <li className='py-4 text-sm'>Projects</li>
+                        </Link>
+                        <Link href='/'>
+                        <li className='py-4 text-sm'>Certificates</li>
                         </Link>
                     </ul>
                     <div className='pt-40'>

@@ -12,7 +12,7 @@ const About = ({image}) => {
                 <h1 className='tracking-wide'>About me</h1>
                 <p className='py-4 text-xl'>
                   I am a Uni student back at community college studying Computer Science after pursuing Psychology. My background is in ABA Psychology as I have worked 
-                  with people diagnosed with autism for 3 years. 
+                  with people diagnosed with Autism Spectrum Disorder for 3 years. 
                   
                   My passion for all things tech related began in my early teen years when I decided to take apart my Xbox 360 to mod video games 
                   which would then lead to me building my own PC later on. 

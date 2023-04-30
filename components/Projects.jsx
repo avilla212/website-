@@ -1,6 +1,5 @@
 import React from 'react'
 import chatbot from '../public/assets/projects/chatbot.png'
-import Link from 'next/link'
 import ProjectItem from '../components/ProjectItem'
 import tictactoe from '../public/assets/projects/tictactoe.png'
 import follower from '../public/assets/projects/follower.png'
@@ -20,26 +19,22 @@ const Projects = () => {
                 
                 <ProjectItem title='Discord chatbot' 
                 backgroundImg={chatbot} 
-                desc='This is just a simple discord chatbot that uses OpenAIs GPT-2 AI to generate responses. At the moment I am 
-                trying to add an interactive numbers guessing game with the chatbot'
+                desc='This is just a simple discord chatbot that uses OpenAIs GPT-2 AI to generate responses.'
                 />
                 
                 <ProjectItem title='Tic Tac Toe' 
                 backgroundImg={tictactoe}  
-                desc='This started as a school project but become something I added onto becuase 
+                desc='This started as a school project but became something I added onto becuase 
                 one of the kids I tutor loves playing tic tac toe with me'
                 />
                 
                 <ProjectItem title='Instagram follower checker'
                 backgroundImg={follower}
-                desc='I saw someone on TikTok make this and I wanted to see if I could make it myself and optimize runtimes and memory useage. Plus,
+                desc='I saw someone on TikTok make this and I wanted to see if I could make it myself and optimize runtimes and memory usage. Plus,
                 I know many people around my age would love to have this tool'
                 />
-
-               
-                 
-
-            </div>
+                
+                </div>
           </div>
     </div>
   )

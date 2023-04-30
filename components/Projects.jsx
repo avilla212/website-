@@ -19,7 +19,7 @@ const Projects = () => {
                 
                 <ProjectItem title='Discord chatbot' 
                 backgroundImg={chatbot} 
-                desc='This is just a simple discord chatbot that uses OpenAIs GPT-2 AI to generate responses.'
+                desc='This is just a simple discord chatbot that uses OpenAIs GPT-2 AI to generate responses'
                 />
                 
                 <ProjectItem title='Tic Tac Toe' 

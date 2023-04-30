@@ -15,28 +15,32 @@ const Projects = () => {
              q: How can have my photos display ina  grid like fashion
              a: use grid and grid-cols-2
             */}
-            <div className='grid md:grid-cols-2 grid-rows-2'>
-
-                <Link href='https://github.com/avilla212/resume-projects-'>
+            <div className='grid md:grid-cols-2 gap-8'>
+              {/* ADD LINKS TO THE IMAGES  */}
+                
                 <ProjectItem title='Discord chatbot' 
                 backgroundImg={chatbot} 
                 desc='This is just a simple discord chatbot that uses OpenAIs GPT-2 AI to generate responses. At the moment I am 
                 trying to add an interactive numbers guessing game with the chatbot'
                 />
+                
                 <ProjectItem title='Tic Tac Toe' 
                 backgroundImg={tictactoe}  
                 desc='This started as a school project but become something I added onto becuase 
                 one of the kids I tutor loves playing tic tac toe with me'
                 />
+                
                 <ProjectItem title='Instagram follower checker'
                 backgroundImg={follower}
                 desc='I saw someone on TikTok make this and I wanted to see if I could make it myself and optimize runtimes and memory useage. Plus,
                 I know many people around my age would love to have this tool'
                 />
+
+               
                  
-                </Link>
-                </div>
+
             </div>
+          </div>
     </div>
   )
 }

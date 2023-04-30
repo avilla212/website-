@@ -15,7 +15,7 @@ const Certs = () => {
                 backgroundImg1={meta}
                 desc1='This course taught me the basic concepts of web development
                 This was the first step I took towards learning programming 8 months ago and I was in awe
-                when I got work with functions, objects, arrays, data types and much more.
+                when I got to work with functions, objects, arrays, data types and much more.
                 '
             />
 

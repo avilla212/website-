@@ -12,9 +12,9 @@ const Main = () => {
                 <p className='py-4 text-[#242222] max-w-[70%] m-auto '>
                     I don't think I can call myself a developer of any kind quite yet but I do enjoy programming and creating websites. 
                     
-                    This portfolio was took a few months to make because I wanted to understand the fundamentals of web development before I started.
+                    This portfolio took a few months to make because I wanted to understand the fundamentals of web development before I started.
                     
-                    Thank's to YouTube and TheOdinProject, this website was able to be made. My current goal is to learn more about backend development, web development and 
+                    Thank's to YouTube and TheOdinProject, this website was created. My current goal is to learn more about backend development, web development and 
                     machine learning. Alongside that, I want to transfer jobs from the field of Psycholgy to Tech. 
                 </p>
                 <div>

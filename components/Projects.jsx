@@ -30,8 +30,7 @@ const Projects = () => {
                 
                 <ProjectItem title='Instagram follower checker'
                 backgroundImg={follower}
-                desc='I saw someone on TikTok make this and I wanted to see if I could make it myself and optimize runtimes and memory usage. Plus,
-                I know many people around my age would love to have this tool'
+                desc='I saw someone on TikTok make this and I wanted to see if I could do the same but with optimizing runtimes and memory usage'
                 />
                 
                 </div>

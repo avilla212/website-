@@ -11,14 +11,15 @@ const About = () => {
             <div className='col-span-2'>
                 <h1 className='tracking-wide'>About me</h1>
                 <p className='py-4 text-xl'>
-                  I am a Uni student back at community college studying Computer Science after pursuing Psychology. My background is in ABA Psychology as I have worked 
-                  with people diagnosed with Autism Spectrum Disorder for 3 years. 
-                  
-                  My passion for all things tech related began in my early teen years when I decided to take apart my Xbox 360 to mod video games 
-                  which would then lead to me building my own PC later on. 
-                  
-                  Since then I've always had an interest in anything tech. In 2022, I decided to take my first steps towards learning how to program 
-                  by using resources such as 
+                I am currently a university student enrolled in a Computer Science program at a community college, following my previous pursuit of Psychology. 
+                My professional background lies in Applied Behavior Analysis (ABA) Psychology, where I dedicated three years to working with individuals diagnosed with Autism Spectrum Disorder.
+
+                My passion for technology emerged during my early teenage years when I began disassembling my Xbox 360 to modify video games. 
+                This initial experience eventually led me to build my own personal computer.
+
+                Ever since then, my interest in all things tech has continued to grow. 
+                In 2022, I took a significant step towards pursuing my passion by embarking on the journey of learning programming.
+                I utilized various resources, such as  
                   <Link className='underline cursor-pointer' href='https://www.freecodecamp.org/'> FreeCodeCamp,</Link> 
                   <Link className='underline cursor-pointer' href='https://www.codecademy.com/'> Codecademy,</Link>
                   <Link className='underline cursor-pointer'  href='https://www.coursera.org/'> Coursera,</Link>

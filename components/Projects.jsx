@@ -22,8 +22,8 @@ const Projects = () => {
                 
                 title='Discord chatbot' 
                 backgroundImg={chatbot} 
-                desc='This is just a simple discord chatbot that uses OpenAI&#39;s GPT-2 to generate responses. 
-                I made this because in order to find a way to have everyone in my server interact and it worked wonderfully'
+                desc='I developed a Discord chatbot utilizing OpenAI&#39;s GPT-2 model for generating responses. 
+                The purpose of this bot was to foster interaction among users in my server, and it proved to be highly successful in achieving that goal.'
                 
                 />
                 
@@ -31,8 +31,8 @@ const Projects = () => {
                 
                 title='Tic Tac Toe' 
                 backgroundImg={tictactoe}  
-                desc='This started as a school project but became something I added onto becuase 
-                one of the kids I tutor loved playing tic tac toe with me'
+                desc='Initially conceived as a school project, this endeavor grew beyond its initial scope as I discovered its potential to engage and entertain. 
+                The motivation to expand the project stemmed from the enjoyment experienced by one of the children I tutor, who found great delight in playing tic-tac-toe with me.'
                 
                 />
 
@@ -40,18 +40,17 @@ const Projects = () => {
 
                 title='Library Management System'
                 backgroundImg={library}
-                desc='This terminal program allow&#39;s user&#39;s to create multiple libary card&#39;s
-                that are stored into a hashmap. The user can then add books, checkout books, return books, etc....
-                I want to create a way to switch between different library cards yet save the data'     
+                desc='I have developed a terminal program that enables users to create multiple library cards, which are stored in a hashmap. 
+                Users can perform various actions such as adding books, checking out books, returning books, and more. 
+                Currently, I am working on implementing a functionality to switch between different library cards while ensuring that the data is saved and accessible.'     
                 />
 
                 <ProjectItem 
                 
                 title='Password Generator'
                 backgroundImg={pass}
-                desc='This is a password generator that uses the secrets module which is used for generating cryptographically strong random numbers suitable for 
-                managing data such as passwords, account authentication, security tokens, and related secrets.Tkinter was used for the GUI. Alongside with 
-                generating the passwords, you are allowed to save your passwords to a file on your machine'
+                desc='I created a password generator application using the secrets module for strong random number generation and Tkinter for the GUI. 
+                The app generates secure passwords and provides the option to save them to a local file for easy storage.'
                 
                 />
 

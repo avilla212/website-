@@ -14,7 +14,7 @@ const Certs = () => {
                 title1='Meta&apos;s Programming with Javascript course'
                 backgroundImg1={meta}
                 desc1='I completed a web development course eight months ago, which served as my first step into programming. 
-                I was fascinated by working with functions, objects, arrays, data types, and more, discovering the core concepts of programming and fueling my passion for the field..
+                I was fascinated by working with functions, objects, arrays, data types, and more, discovering the core concepts of programming and fueling my passion for the field.
                 '
             />
 
@@ -22,7 +22,7 @@ const Certs = () => {
                 title1='Meta&apos;s Version Control course'
                 backgroundImg1={version}
                 desc1='During this course, I gained valuable insights into various version control systems, enabling me to understand the importance of creating an efficient software development workflow. 
-                Additionally, I was introduced to Linux commands and received instruction on how to effectively utilize Git for version control purposes..
+                Additionally, I was introduced to Linux commands and received instruction on how to effectively utilize Git for version control purposes.
                 '
             />
 

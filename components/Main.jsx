@@ -18,7 +18,7 @@ const Main = () => {
                 <div>
                     <h2>Reach out to me at my socials below or email me!</h2>
                     
-                    <p className='uppercase font-bold'>Email: alexvillafana99@gmail.com</p>
+                    <p className='uppercase font-bold'>Email: alexandervillafana995@gmail.com</p>
                 </div>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>

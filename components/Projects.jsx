@@ -23,7 +23,7 @@ const Projects = () => {
                 title='Discord chatbot' 
                 backgroundImg={chatbot} 
                 desc='I developed a Discord chatbot utilizing OpenAI&#39;s GPT-2 model for generating responses. 
-                The purpose of this bot was to foster interaction among users in my server, and it proved to be highly successful in achieving that goal.'
+                The purpose of this bot was to foster interaction among users in my server, and it proved to be highly successful in achieving that goal'
                 
                 />
                 
@@ -32,7 +32,7 @@ const Projects = () => {
                 title='Tic Tac Toe' 
                 backgroundImg={tictactoe}  
                 desc='Initially conceived as a school project, this endeavor grew beyond its initial scope as I discovered its potential to engage and entertain. 
-                The motivation to expand the project stemmed from the enjoyment experienced by one of the children I tutor, who found great delight in playing tic-tac-toe with me.'
+                The motivation to expand the project stemmed from the enjoyment experienced by one of the children I tutor, who found great delight in playing tic-tac-toe with me'
                 
                 />
 
@@ -42,7 +42,7 @@ const Projects = () => {
                 backgroundImg={library}
                 desc='I have developed a terminal program that enables users to create multiple library cards, which are stored in a hashmap. 
                 Users can perform various actions such as adding books, checking out books, returning books, and more. 
-                Currently, I am working on implementing a functionality to switch between different library cards while ensuring that the data is saved and accessible.'     
+                Currently, I am working on implementing a functionality to switch between different library cards while ensuring that the data is saved and accessible'     
                 />
 
                 <ProjectItem 
@@ -50,7 +50,7 @@ const Projects = () => {
                 title='Password Generator'
                 backgroundImg={pass}
                 desc='I created a password generator application using the secrets module for strong random number generation and Tkinter for the GUI. 
-                The app generates secure passwords and provides the option to save them to a local file for easy storage.'
+                The app generates secure passwords and provides the option to save them to a local file for easy storage'
                 
                 />
 

@@ -35,6 +35,7 @@ const Navbar = () => {
     
             <div>
                 <ul className='hidden md:flex'>
+                    
                     <Link href='/'>
                         <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Home</li>
                     </Link>
@@ -50,20 +51,20 @@ const Navbar = () => {
                     <Link href='/#certificates'>
                         <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Certificates</li>
                     </Link>
-                </ul>
-                <div onClick={handleNav} className='md:hidden cursor-pointer'>
-                    <AiOutlineMenu size={25}/>
-                </div>
-                <div className='flex items-center'>
-                    
-                    <a 
-                    className='hidden md:block'
-                    href="../public/assets/final_resume.png" download='final_resume.png'>
+                    <a
+                        className=' px-20 ' // Use 'ml-auto' to move the button to the right
+                        href={process.env.PUBLIC_URL + '/assets/final_resume.png'}
+                        download='final_resume.png'>
                         <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600">
                             Download Resume
                         </button>
                     </a>
+                
+                </ul>
+                <div onClick={handleNav} className='md:hidden cursor-pointer'>
+                    <AiOutlineMenu size={25}/>
                 </div>
+                
             </div>
         </div>
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>

@@ -56,7 +56,9 @@ const Navbar = () => {
                 </div>
                 <div className='flex items-center'>
                     
-                    <a href="../public/assets/final_resume.png" download='final_resume.png'>
+                    <a 
+                    className='hidden md:block'
+                    href="../public/assets/final_resume.png" download='final_resume.png'>
                         <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600">
                             Download Resume
                         </button>

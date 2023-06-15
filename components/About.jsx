@@ -19,7 +19,7 @@ const About = () => {
 
                 Ever since then, my interest in all things tech has continued to grow. 
                 In 2022, I took a significant step towards pursuing my passion by embarking on the journey of learning programming.
-                I utilized various resources, such as  
+                I utilized various resources, such as 
                   <Link className='underline cursor-pointer' href='https://www.freecodecamp.org/'> FreeCodeCamp,</Link> 
                   <Link className='underline cursor-pointer' href='https://www.codecademy.com/'> Codecademy,</Link>
                   <Link className='underline cursor-pointer'  href='https://www.coursera.org/'> Coursera,</Link>

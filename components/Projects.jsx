@@ -12,7 +12,7 @@ const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#383636]'>Projects</p>
             <h2 className='py-2'>More on my github as well :D</h2>
             {/*
-             q: How can have my photos display ina  grid like fashion
+             q: How can have my photos display in a grid like fashion
              a: use grid and grid-cols-2
             */}
             <div className='grid md:grid-cols-2 gap-8'>

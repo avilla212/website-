@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { AiOutlineMenu,AiOutlineCloseCircle, } from 'react-icons/ai'
-import { FaGithub,FaLinkedinIn,FaInstagram } from 'react-icons/fa'
+import { FaGithub,FaLinkedinIn,FaInstagram, FaBars,FaDownload } from 'react-icons/fa'
+import final_resume from '../public/assets/final_resume.png'
+
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -12,6 +14,8 @@ const Navbar = () => {
     const handleNav = () => {
         setNav(!nav)
     }
+
+    
 
     useEffect(() => {
         const handleShadow = () => {
@@ -49,6 +53,14 @@ const Navbar = () => {
                 </ul>
                 <div onClick={handleNav} className='md:hidden cursor-pointer'>
                     <AiOutlineMenu size={25}/>
+                </div>
+                <div className='flex items-center'>
+                    
+                    <a href="../public/assets/final_resume.png" download='final_resume.png'>
+                        <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600">
+                            Download Resume
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>

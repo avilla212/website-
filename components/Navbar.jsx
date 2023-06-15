@@ -51,14 +51,7 @@ const Navbar = () => {
                     <Link href='/#certificates'>
                         <li className='font-bold ml-10 text-sm uppercase hover:border-b'>Certificates</li>
                     </Link>
-                    <a
-                        className=' px-20 ' // Use 'ml-auto' to move the button to the right
-                        href={process.env.PUBLIC_URL + '/assets/final_resume.png'}
-                        download='final_resume.png'>
-                        <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-white hover:bg-blue-600">
-                            Download Resume
-                        </button>
-                    </a>
+                   
                 
                 </ul>
                 <div onClick={handleNav} className='md:hidden cursor-pointer'>
@@ -66,6 +59,18 @@ const Navbar = () => {
                 </div>
                 
             </div>
+
+                    <a
+                        className=' hidden md:flex' // Use 'ml-auto' to move the button to the right
+                        href={process.env.PUBLIC_URL + '/assets/final_resume.png'}
+                        download='final_resume.png'>
+                        <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-sm text-white hover:border-b hover:bg-blue-600">
+                            <p className= 'font-bold flex justify-center md:grid-cols-2 gap-2'>Download resume
+                            <FaDownload className='' size={20}
+                            />
+                            </p>
+                        </button>
+                    </a>
         </div>
         <div className={nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/50' : ''}>
             <div className={nav 

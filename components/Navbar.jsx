@@ -62,9 +62,9 @@ const Navbar = () => {
 
                     <a
                         className=' hidden md:flex' // Use 'ml-auto' to move the button to the right
-                        href={process.env.PUBLIC_URL + '/assets/final_resume.png'}
-                        download='final_resume.png'>
-                        <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-sm text-white hover:border-b hover:bg-blue-600">
+                        href='/assets/final_resume.png'
+                        download='final_resume'>
+                        <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-sm text-white cursor-pointer   hover:bg-blue-600">
                             <p className= 'font-bold flex justify-center md:grid-cols-2 gap-2'>Download resume
                             <FaDownload className='' size={20}
                             />

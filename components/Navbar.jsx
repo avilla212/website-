@@ -65,7 +65,7 @@ const Navbar = () => {
                         href='/assets/final_resume.png'
                         download='final_resume'>
                         <button className="ml-2 px-3 py-2 rounded-lg bg-blue-500 text-sm text-white cursor-pointer   hover:bg-blue-600">
-                            <p className= 'font-bold flex justify-center md:grid-cols-2 gap-2'>Download resume
+                            <p className= ' hover:scale-105 font-bold flex justify-center md:grid-cols-2 gap-2'>Download resume
                             <FaDownload className='' size={20}
                             />
                             </p>

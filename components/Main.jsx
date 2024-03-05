@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 
 const Main = () => {
   return (
-    <div id='home' className='w-full h-screen text-center'>
+    <div id='home' className='w-full h-auto text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
                 
@@ -16,7 +16,7 @@ const Main = () => {
                 Simultaneously, I aspire to transition from the field of Psychology to a career in the dynamic world of technology. 
                 </p>
                 <div>
-                    <h2>Reach out to me at my socials below or email me!</h2>
+                    <h2 className='py-4'>Reach out to me at my socials below or email me!</h2>
                     
                     <p className='uppercase font-bold'>Email: alexandervillafana995@gmail.com</p>
                 </div>
